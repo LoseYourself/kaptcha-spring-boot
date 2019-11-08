@@ -1,0 +1,152 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "name": "kaptcha",
+      "type": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kaptcha.border",
+      "type": "java.lang.Boolean",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Border",
+      "defaultValue": true
+    },
+    {
+      "name": "kaptcha.border.color",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Border",
+      "defaultValue": "black"
+    },
+    {
+      "name": "kaptcha.border.thickness",
+      "type": "java.lang.Integer",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Border",
+      "defaultValue": 1
+    },
+    {
+      "name": "kaptcha.noise.impl",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Noise",
+      "defaultValue": "com.google.code.kaptcha.impl.DefaultNoise"
+    },
+    {
+      "name": "kaptcha.noise.color",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Noise",
+      "defaultValue": "black"
+    },
+    {
+      "name": "kaptcha.obscurificator.impl",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Obscurificator",
+      "defaultValue": "com.google.code.kaptcha.impl.WaterRipple"
+    },
+    {
+      "name": "kaptcha.producer.impl",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Producer",
+      "defaultValue": "com.google.code.kaptcha.impl.DefaultKaptcha"
+    },
+    {
+      "name": "kaptcha.textproducer.impl",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer",
+      "defaultValue": "com.google.code.kaptcha.text.impl.DefaultTextCreator"
+    },
+    {
+      "name": "kaptcha.textproducer.char.string",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer$Char",
+      "defaultValue": "abcde2345678gfynmnpwx"
+    },
+    {
+      "name": "kaptcha.textproducer.char.length",
+      "type": "java.lang.Integer",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer$Char",
+      "defaultValue": 5
+    },
+    {
+      "name": "kaptcha.textproducer.char.space",
+      "type": "java.lang.Integer",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer$Char",
+      "defaultValue": 2
+    },
+    {
+      "name": "kaptcha.textproducer.font.names",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer$Font",
+      "defaultValue": "Arial,Courier"
+    },
+    {
+      "name": "kaptcha.textproducer.font.size",
+      "type": "java.lang.Integer",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer$Font",
+      "defaultValue": 40
+    },
+    {
+      "name": "kaptcha.textproducer.font.color",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$TextProducer$Font",
+      "defaultValue": "black"
+    },
+    {
+      "name": "kaptcha.word.impl",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Word",
+      "defaultValue": "com.google.code.kaptcha.text.impl.DefaultWordRenderer"
+    },
+    {
+      "name": "kaptcha.background.impl",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Background",
+      "defaultValue": "com.google.code.kaptcha.impl.DefaultBackground"
+    },
+    {
+      "name": "kaptcha.background.clear.from",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Background$Clear",
+      "defaultValue": "lightGray"
+    },
+    {
+      "name": "kaptcha.background.clear.to",
+      "type": "java.lang.String",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Background$Clear",
+      "defaultValue": "white"
+    },
+    {
+      "name": "kaptcha.image.width",
+      "type": "java.lang.Integer",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Image",
+      "defaultValue": 200
+    },
+    {
+      "name": "kaptcha.image.height",
+      "type": "java.lang.Integer",
+      "description": "",
+      "sourceType": "org.kaptcha.spring.boot.autoconfigure.properties.KaptchaProperties$Image",
+      "defaultValue": 50
+    }
+  ]
+}
